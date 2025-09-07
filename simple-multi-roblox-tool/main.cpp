@@ -63,7 +63,7 @@ int main() {
     g_mutex = CreateMutexA(nullptr, TRUE, "ROBLOX_singletonMutex");
     if (!g_mutex) {
         std::cout << GetTimestamp() << " Failed to create mutex. Error: " << GetLastError() << std::endl;
-		std::cout << GetTimestamp() << " Press any key to exit..." << std::endl; // exiting the program if the mutex creation fails
+        std::cout << GetTimestamp() << " Press any key to exit..." << std::endl; // exiting the program if the mutex creation fails
         std::cin.get();
         return 1;
     }
@@ -73,6 +73,7 @@ int main() {
         return 1;
     }
     std::cout << GetTimestamp() << " Ready!" << std::endl;
+    std::cout << GetTimestamp() << " DO NOT CLOSE THIS WINDOW!! OR THE BYPASS WILL NOT WORK!! OR ALL OF ROBLOX DUPED INSTANCES WILL BE CLOSED!!" << std::endl;
     g_processes = GetRobloxProcesses(); // initial function
     try {
         while (true) {
