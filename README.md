@@ -22,6 +22,6 @@
  This tool is intended for educational purposes only.
  I am NOT responsible for any actions you take with this tool.
 
- ### Note
+ ## Note
 
  (made by me, improved with ai)
