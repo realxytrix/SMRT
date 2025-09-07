@@ -21,4 +21,7 @@
 
  This tool is intended for educational purposes only.
  I am NOT responsible for any actions you take with this tool.
- (yes i used ai to improve my code.)
+
+ ### Note
+
+ (made by me, improved with ai)
